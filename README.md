@@ -22,38 +22,55 @@
 ---
 
 ## ⚙️ Stack que domino
-**Back-end**
-  
+
+### 🖥️ Back-end
+
+**Java & Spring**  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![Spring MVC](https://img.shields.io/badge/Spring%20MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
 ![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white)
+
+**C# & .NET**  
 ![.NET 6+](https://img.shields.io/badge/.NET%206%2B-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
+![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Entity Framework Core](https://img.shields.io/badge/Entity%20Framework%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![LINQ](https://img.shields.io/badge/LINQ-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Minimal APIs](https://img.shields.io/badge/Minimal%20APIs-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![xUnit](https://img.shields.io/badge/xUnit%20Tests-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Moq](https://img.shields.io/badge/Moq-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![FluentAssertions](https://img.shields.io/badge/FluentAssertions-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+**Node.js & TypeScript**  
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
+![Express](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 
-**Banco de dados & Mensageria**
+---
 
+### 🗄️ Banco de dados & Mensageria  
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**DevOps & Qualidade**
+---
 
+### ⚙️ DevOps & Qualidade  
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=000)
-![xUnit](https://img.shields.io/badge/xUnit%20(Tests)-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![SOLID](https://img.shields.io/badge/SOLID-000000?style=for-the-badge)
 ![DDD](https://img.shields.io/badge/DDD-0F766E?style=for-the-badge)
 
-**Front-end**
+---
 
+### 🎨 Front-end  
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Sass](https://img.shields.io/badge/Sass-CC6699?style=for-the-badge&logo=sass&logoColor=white)
 ![Tailwind](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
 
 ---
 
