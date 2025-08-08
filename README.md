@@ -69,7 +69,6 @@
 ## 🚀 Projetos em destaque
 - **[StocksMaster.API](https://github.com/eduardocvalente/StocksMaster.API)** — API de gestão de estoque (.NET/C#).  
 - **[FastCep.Api](https://github.com/eduardocvalente/FastCep.Api)** — Consulta de CEP performática (C#).  
-- **[rede_neural_contabil](https://github.com/eduardocvalente/rede_neural_contabil)** — IA aplicada à automação contábil (TypeScript/ML).  
 
 > Quer ver algo específico? Abre uma *issue* que eu te mostro os bastidores. 😉
 
