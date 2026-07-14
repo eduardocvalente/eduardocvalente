@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="356" viewBox="0 0 1180 356">
+<defs>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#10B981"/>
+  </linearGradient>
+  <radialGradient id="bgGlow" cx="30%" cy="20%" r="80%">
+    <stop offset="0%" stop-color="#0B1120"/>
+    <stop offset="100%" stop-color="#050816"/>
+  </radialGradient>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#7DD3FC" opacity="0.05"/>
+  </pattern>
+  <clipPath id="s0"><rect x="14" y="60" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="0.30s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s1"><rect x="14" y="86" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="0.43s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s2"><rect x="14" y="112" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="0.56s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s3"><rect x="14" y="138" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="0.69s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s4"><rect x="14" y="164" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="0.82s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s5"><rect x="14" y="190" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="0.95s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s6"><rect x="14" y="216" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="1.08s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s7"><rect x="14" y="242" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="1.21s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s8"><rect x="14" y="268" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="1.34s" fill="freeze"/></rect></clipPath>
+  <clipPath id="s9"><rect x="14" y="294" width="0" height="26"><animate attributeName="width" from="0" to="1150" dur="0.38s" begin="1.47s" fill="freeze"/></rect></clipPath>
+  <style>
+    .key    { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #22D3EE; font-weight: bold; }
+    .value  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #E5E7EB; }
+    .cc     { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #475569; }
+    .arrow  { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #7C3AED; font-weight: bold; }
+    .prompt { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #10B981; font-weight: bold; }
+    text, tspan { white-space: pre; }
+    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #64748B; letter-spacing: 0.5px; }
+    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #38BDF8; letter-spacing: 2px; opacity: 0.7; }
+  </style>
+</defs>
+
+<rect width="1180" height="356" rx="18" fill="url(#bgGlow)"/>
+<rect width="1180" height="356" rx="18" fill="url(#scanlines)"/>
+
+<g id="titlebar">
+  <rect x="3" y="3" width="1174" height="34" rx="16" fill="#0B1120" fill-opacity="0.85"/>
+  <circle cx="24" cy="20" r="5" fill="#EF4444"/>
+  <circle cx="42" cy="20" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="20" r="5" fill="#10B981"/>
+  <text x="590" y="25" text-anchor="middle" class="term-label">eduardo@valente ~ % stack --list --verbose</text>
+  <text x="1108" y="24" class="panel-title">TECH.STACK</text>
+</g>
+
+<g clip-path="url(#s0)"><text x="30" y="78"><tspan class="prompt">$ </tspan><tspan class="value">stack --list --verbose</tspan></text></g>
+<g clip-path="url(#s1)"><text x="30" y="104"><tspan class="arrow">&#9656; </tspan><tspan class="key">backend</tspan><tspan class="cc"> ......... </tspan><tspan class="value">C# &#183; .NET 10 &#183; ASP.NET Core &#183; Node.js &#183; TypeScript &#183; Java &#183; Spring Boot</tspan></text></g>
+<g clip-path="url(#s2)"><text x="30" y="130"><tspan class="arrow">&#9656; </tspan><tspan class="key">frontend</tspan><tspan class="cc"> ........ </tspan><tspan class="value">React &#183; Tailwind CSS &#183; Sass &#183; JavaScript &#183; HTML &#183; CSS</tspan></text></g>
+<g clip-path="url(#s3)"><text x="30" y="156"><tspan class="arrow">&#9656; </tspan><tspan class="key">databases</tspan><tspan class="cc"> ....... </tspan><tspan class="value">PostgreSQL &#183; SQL Server &#183; MySQL &#183; MongoDB &#183; Redis</tspan></text></g>
+<g clip-path="url(#s4)"><text x="30" y="182"><tspan class="arrow">&#9656; </tspan><tspan class="key">messaging</tspan><tspan class="cc"> ....... </tspan><tspan class="value">RabbitMQ &#183; Azure Service Bus</tspan></text></g>
+<g clip-path="url(#s5)"><text x="30" y="208"><tspan class="arrow">&#9656; </tspan><tspan class="key">orm</tspan><tspan class="cc"> ............. </tspan><tspan class="value">Entity Framework Core &#183; Hibernate / JPA</tspan></text></g>
+<g clip-path="url(#s6)"><text x="30" y="234"><tspan class="arrow">&#9656; </tspan><tspan class="key">cloud.devops</tspan><tspan class="cc"> .... </tspan><tspan class="value">Azure &#183; Docker &#183; GitHub Actions &#183; Git &#183; Linux</tspan></text></g>
+<g clip-path="url(#s7)"><text x="30" y="260"><tspan class="arrow">&#9656; </tspan><tspan class="key">testing</tspan><tspan class="cc"> ......... </tspan><tspan class="value">xUnit &#183; Moq &#183; FluentAssertions</tspan></text></g>
+<g clip-path="url(#s8)"><text x="30" y="286"><tspan class="arrow">&#9656; </tspan><tspan class="key">architecture</tspan><tspan class="cc"> .... </tspan><tspan class="value">Clean Architecture &#183; DDD &#183; CQRS &#183; Hexagonal &#183; SOLID</tspan></text></g>
+<g clip-path="url(#s9)"><text x="30" y="312"><tspan class="prompt">$ </tspan></text></g>
+
+<rect x="52" y="300" width="9" height="15" fill="#22D3EE" opacity="0">
+  <animate attributeName="opacity" values="0;0;1;0;1;0;1;0" keyTimes="0;0.01;0.02;0.3;0.5;0.7;0.85;1" dur="1.4s" begin="1.9s" repeatCount="indefinite"/>
+</rect>
+
+<rect x="3" y="3" width="1174" height="350" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.8">
+  <animate attributeName="opacity" values="0.5;0.95;0.5" dur="3.2s" repeatCount="indefinite"/>
+</rect>
+</svg>
