@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="470" viewBox="0 0 1180 470">
+<defs>
+  <linearGradient id="borderGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#10B981"/>
+  </linearGradient>
+  <radialGradient id="bgGlow" cx="30%" cy="20%" r="80%">
+    <stop offset="0%" stop-color="#0B1120"/>
+    <stop offset="100%" stop-color="#050816"/>
+  </radialGradient>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="1" fill="#7DD3FC" opacity="0.05"/>
+  </pattern>
+  <style>
+    .ptitle { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #22D3EE; font-weight: bold; }
+    .ptag   { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #A78BFA; font-weight: bold; }
+    .pdesc  { font-family: 'Courier New', Consolas, monospace; font-size: 13px; fill: #94A3B8; }
+    .pstack { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #10B981; }
+    .arrow  { font-family: 'Courier New', Consolas, monospace; font-size: 17px; fill: #7C3AED; font-weight: bold; }
+    text, tspan { white-space: pre; }
+    .term-label { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #64748B; letter-spacing: 0.5px; }
+    .panel-title { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #38BDF8; letter-spacing: 2px; opacity: 0.7; }
+  </style>
+</defs>
+
+<rect width="1180" height="470" rx="18" fill="url(#bgGlow)"/>
+<rect width="1180" height="470" rx="18" fill="url(#scanlines)"/>
+
+<g id="titlebar">
+  <rect x="3" y="3" width="1174" height="34" rx="16" fill="#0B1120" fill-opacity="0.85"/>
+  <circle cx="24" cy="20" r="5" fill="#EF4444"/>
+  <circle cx="42" cy="20" r="5" fill="#F59E0B"/>
+  <circle cx="60" cy="20" r="5" fill="#10B981"/>
+  <text x="590" y="25" text-anchor="middle" class="term-label">eduardo@valente ~ % ls ~/deployments</text>
+  <text x="1090" y="24" class="panel-title">DEPLOYMENTS</text>
+</g>
+
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.3s" fill="freeze"/>
+  <rect x="14" y="52" width="568" height="190" rx="14" fill="#0B1120" fill-opacity="0.45" stroke="url(#borderGrad)" stroke-width="1" opacity="0.9"/>
+  <text x="34" y="86"><tspan class="arrow">&#9656; </tspan><tspan class="ptitle">notificacoes-core-service</tspan></text>
+  <text x="34" y="112" class="ptag">[ .NET 10 &#183; Arquitetura Hexagonal ]</text>
+  <text x="34" y="146" class="pdesc">Microsservi&#231;o de notifica&#231;&#245;es orientado a eventos,</text>
+  <text x="34" y="166" class="pdesc">com consumo ass&#237;ncrono e envio de e-mails via MailKit.</text>
+  <text x="34" y="216" class="pstack">&#9642; RabbitMQ   &#9642; PostgreSQL   &#9642; MailKit   &#9642; Ports &amp; Adapters</text>
+</g>
+
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.55s" fill="freeze"/>
+  <rect x="598" y="52" width="568" height="190" rx="14" fill="#0B1120" fill-opacity="0.45" stroke="url(#borderGrad)" stroke-width="1" opacity="0.9"/>
+  <text x="618" y="86"><tspan class="arrow">&#9656; </tspan><tspan class="ptitle">gestao-matriculas-service</tspan></text>
+  <text x="618" y="112" class="ptag">[ .NET 10 &#183; Clean Architecture ]</text>
+  <text x="618" y="146" class="pdesc">Microsservi&#231;o acad&#234;mico com separa&#231;&#227;o rigorosa de</text>
+  <text x="618" y="166" class="pdesc">camadas, agregados DDD e fluxos de escrita/leitura CQRS.</text>
+  <text x="618" y="216" class="pstack">&#9642; DDD   &#9642; CQRS   &#9642; MediatR   &#9642; EF Core 9</text>
+</g>
+
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="0.8s" fill="freeze"/>
+  <rect x="14" y="258" width="568" height="190" rx="14" fill="#0B1120" fill-opacity="0.45" stroke="url(#borderGrad)" stroke-width="1" opacity="0.9"/>
+  <text x="34" y="292"><tspan class="arrow">&#9656; </tspan><tspan class="ptitle">PrintManagerAPI</tspan></text>
+  <text x="34" y="318" class="ptag">[ .NET 8 &#183; Minimal APIs ]</text>
+  <text x="34" y="352" class="pdesc">API de gerenciamento de fila de impress&#227;o com</text>
+  <text x="34" y="372" class="pdesc">processamento FIFO e integra&#231;&#227;o nativa com Windows.</text>
+  <text x="34" y="422" class="pstack">&#9642; Minimal APIs   &#9642; FIFO Queue   &#9642; Windows Spooler</text>
+</g>
+
+<g opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur="0.6s" begin="1.05s" fill="freeze"/>
+  <rect x="598" y="258" width="568" height="190" rx="14" fill="#0B1120" fill-opacity="0.45" stroke="url(#borderGrad)" stroke-width="1" opacity="0.9"/>
+  <text x="618" y="292"><tspan class="arrow">&#9656; </tspan><tspan class="ptitle">FastCep.Api</tspan></text>
+  <text x="618" y="318" class="ptag">[ C# &#183; Alta Performance ]</text>
+  <text x="618" y="352" class="pdesc">Consulta de CEP perform&#225;tica com cache inteligente</text>
+  <text x="618" y="372" class="pdesc">e fallback autom&#225;tico entre provedores.</text>
+  <text x="618" y="422" class="pstack">&#9642; Redis   &#9642; Cache-Aside   &#9642; Fallback Providers</text>
+</g>
+
+<rect x="3" y="3" width="1174" height="464" rx="16" fill="none" stroke="url(#borderGrad)" stroke-width="2" opacity="0.8">
+  <animate attributeName="opacity" values="0.5;0.95;0.5" dur="3.2s" repeatCount="indefinite"/>
+</rect>
+</svg>
