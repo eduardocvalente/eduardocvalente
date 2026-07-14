@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="150" viewBox="0 0 1180 150">
+<defs>
+  <radialGradient id="bgGlow" cx="30%" cy="20%" r="80%">
+    <stop offset="0%" stop-color="#0B1120"/>
+    <stop offset="100%" stop-color="#050816"/>
+  </radialGradient>
+  <linearGradient id="wave1" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#7C3AED">
+      <animate attributeName="stop-color" values="#7C3AED;#22D3EE;#7C3AED" dur="8s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#22D3EE">
+      <animate attributeName="stop-color" values="#22D3EE;#7C3AED;#22D3EE" dur="8s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+  <linearGradient id="wave2" x1="0%" y1="0%" x2="100%" y2="0%">
+    <stop offset="0%" stop-color="#0E7490"/>
+    <stop offset="100%" stop-color="#5B21B6"/>
+  </linearGradient>
+  <linearGradient id="borderGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#7C3AED"/>
+    <stop offset="50%" stop-color="#22D3EE"/>
+    <stop offset="100%" stop-color="#10B981"/>
+  </linearGradient>
+  <clipPath id="cardClip"><rect width="1180" height="150" rx="18"/></clipPath>
+  <style>
+    .quote { font-family: 'Courier New', Consolas, monospace; font-size: 16px; fill: #E5E7EB; font-style: italic; }
+    .sig   { font-family: 'Courier New', Consolas, monospace; font-size: 12px; fill: #67E8F9; letter-spacing: 1px; }
+    text { white-space: pre; }
+  </style>
+</defs>
+
+<g clip-path="url(#cardClip)">
+  <rect width="1180" height="150" rx="18" fill="url(#bgGlow)"/>
+  <path d="M0,105 C200,75 380,125 590,100 C800,75 980,120 1180,90 L1180,150 L0,150 Z" fill="url(#wave2)" opacity="0.55"/>
+  <path d="M0,120 C240,90 420,140 640,112 C860,86 1020,130 1180,105 L1180,150 L0,150 Z" fill="url(#wave1)" opacity="0.85"/>
+</g>
+
+<text x="590" y="46" text-anchor="middle" class="quote">"C&#243;digo limpo &#233; poesia que roda."</text>
+<text x="590" y="72" text-anchor="middle" class="sig">&#9656; eduardo costa valente &#183; eduardovalente.dev &#9666;</text>
+
+<rect x="3" y="3" width="1174" height="144" rx="16" fill="none" stroke="url(#borderGrad2)" stroke-width="2" opacity="0.8">
+  <animate attributeName="opacity" values="0.5;0.95;0.5" dur="3.2s" repeatCount="indefinite"/>
+</rect>
+</svg>
