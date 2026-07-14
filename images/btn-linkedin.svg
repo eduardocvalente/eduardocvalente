@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="285" height="56" viewBox="0 0 285 56">
+<defs>
+  <radialGradient id="bg" cx="30%" cy="20%" r="90%">
+    <stop offset="0%" stop-color="#0B1120"/>
+    <stop offset="100%" stop-color="#050816"/>
+  </radialGradient>
+  <style>
+    .icon { font-family: 'Courier New', Consolas, monospace; font-size: 15px; fill: #38BDF8; font-weight: bold; }
+    .lbl  { font-family: 'Courier New', Consolas, monospace; font-size: 11px; fill: #64748B; letter-spacing: 2px; }
+    .val  { font-family: 'Courier New', Consolas, monospace; font-size: 14px; fill: #E5E7EB; font-weight: bold; }
+    text { white-space: pre; }
+  </style>
+</defs>
+<rect x="1" y="1" width="283" height="54" rx="12" fill="url(#bg)"/>
+<rect x="1" y="1" width="283" height="54" rx="12" fill="none" stroke="#38BDF8" stroke-width="1.5" opacity="0.8">
+  <animate attributeName="opacity" values="0.45;0.95;0.45" dur="2.6s" begin="0.4s" repeatCount="indefinite"/>
+</rect>
+<text x="16" y="35" class="icon">[in]</text>
+<text x="56" y="22" class="lbl">LINKEDIN</text>
+<text x="56" y="42" class="val">in/eduardocostavalente</text>
+<text x="258" y="35" class="icon">&#8599;</text>
+</svg>
