@@ -12,7 +12,7 @@
 </p>
 
 <div align="center">
-  <img src="images/experience.svg" width="100%" alt="Experiência: ClickMenos (Full-stack, .NET/Azure), Locavibe (Node.js/React), DNL (gateway de pagamento .NET/Redis), Inforsystem (ERP .NET)" />
+  <img src="images/experience.svg" width="100%" alt="Destaques: +2 anos em produção — performance (N+1, cache Redis), event-driven (RabbitMQ, Azure Service Bus), sistemas financeiros, gateway de pagamento, ERP, resiliência assíncrona, serverless, testes" />
 </div>
 
 <div align="center">
@@ -20,7 +20,9 @@
 </div>
 
 <div align="center">
-  <img src="images/projects.svg" width="100%" alt="Projetos: benchmark C#/Java/Node.js (TCC nota máxima), portfólio na AWS, notificacoes-core-service, gestao-matriculas-service, PrintManagerAPI, FastCep.Api" />
+  <a href="https://github.com/eduardocvalente?tab=repositories">
+    <img src="images/projects.svg" width="100%" alt="Projetos: benchmark C#/Java/Node.js (TCC nota máxima), portfólio na AWS, notificacoes-core-service, gestao-matriculas-service, PrintManagerAPI, FastCep.Api — clique para ver todos os repositórios" />
+  </a>
   <p>
     <a href="https://github.com/eduardocvalente/notificacoes-core-service"><b>▸ notificacoes-core-service</b></a> &nbsp;·&nbsp;
     <a href="https://github.com/eduardocvalente/gestao-matriculas-service"><b>▸ gestao-matriculas-service</b></a> &nbsp;·&nbsp;
